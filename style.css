@@ -9,6 +9,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 30px;
 }
 
 header img {
@@ -17,10 +18,23 @@ header img {
 
 .trybewarts-login {
   display: flex;
+  padding-right: 50px;
+}
+
+.trybewarts-login input {
+  margin-right: 30px;
+  height: 35px;
+  border-style: none;
+}
+
+header h1 {
+  color: aliceblue;
 }
 
 main {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 main form {
@@ -31,10 +45,6 @@ main form {
 
 main img {
   height: 500px;
-}
-
-main input {
-  width: 40%;
 }
 
 main div {
@@ -62,9 +72,71 @@ main div {
 .divLabel {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 50%;
+  margin-top: 20px;
 }
 
 main section {
   display: flex;
+}
+
+.divTextArea {
+  display: flex;
+  flex-direction: column;
+}
+
+form h1 {
+  text-align: center;
+  padding: 30px;
+}
+
+.familyChange {
+  margin-top: 20px;
+  width: 50%;
+}
+
+.divLabel span {
+  margin-top: 3px;
+  margin-right: 20px;
+}
+
+.counterEnd {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.avaibleChange {
+  margin-right: 6%;
+  font-size: 20px;
+}
+
+.fullName {
+  margin-right: 3%;
+}
+
+.houseName {
+  display: flex;
+  align-items: center;
+  font-size: 23px;
+}
+
+.spanNote {
+  margin-right: 8px;
+}
+
+.textarea {
+  font-size: 20px;
+}
+
+.labelKnow {
+  font-size: 23px;
+}
+
+#label-family {
+  font-size: 23px;
 }
