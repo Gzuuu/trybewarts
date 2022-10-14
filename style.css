@@ -41,11 +41,11 @@ main div {
   flex-direction: column;
 }
 
-#divFamily input {
+.divCheckbox input {
   width: 15px;
 }
 
-#divCheckbox input {
+#divFamily input {
   width: 15px;
 }
 
