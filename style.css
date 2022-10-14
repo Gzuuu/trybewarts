@@ -22,8 +22,17 @@ main form {
   display: flex;
   width: 675px;
   flex-direction: column;
+  border: 2px solid red;
 }
 
 main img {
   height: 500px;
+}
+
+main input {
+  width: 40%;
+}
+
+main div {
+  display: flex;
 }
