@@ -1,9 +1,14 @@
-let form = document.getElementById("btnEntrar");
-let email = document.getElementById("email").value;
-form.addEventListener("click", entrar);
+const form = document.getElementById('btnEntrar');
+const email = document.getElementById('email');
+const senha = document.getElementById('password');
 
-//Função entrar
-function entrar (event) {
-    event.preventDefault();
-    console.log(email);
+//  Função entrar
+function entrar() {
+  if (email.value === 'tryber@teste.com' && senha.value === '123456') {
+    alert('Olá, Tryber!');
+  } else {
+    alert('Email ou senha inválidos.');
+  }
 }
+
+form.addEventListener('click', entrar);
