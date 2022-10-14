@@ -44,3 +44,22 @@ main div {
 #divFamily input {
   width: 15px;
 }
+
+#divCheckbox input {
+  width: 15px;
+}
+
+#divCheckbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.divLabel {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+main section {
+  display: flex;
+}
