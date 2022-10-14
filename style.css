@@ -22,7 +22,6 @@ main form {
   display: flex;
   width: 675px;
   flex-direction: column;
-  border: 2px solid red;
 }
 
 main img {
@@ -35,4 +34,13 @@ main input {
 
 main div {
   display: flex;
+}
+
+#divFamily {
+  display: flex;
+  flex-direction: column;
+}
+
+#divFamily input {
+  width: 15px;
 }
