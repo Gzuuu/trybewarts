@@ -140,3 +140,9 @@ footer {
 #label-family {
   font-size: 23px;
 }
+
+.textareaedit {
+  border-style: none;
+  border: 2px solid rgb(50, 167, 145);
+  border-radius: 2%;
+}
